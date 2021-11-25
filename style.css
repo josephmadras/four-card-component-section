@@ -1,10 +1,4 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 body {
   width: 100%;
@@ -12,6 +6,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 15px;
+  font-family: "Poppins";
 }
 
 header {
@@ -22,6 +18,7 @@ header {
 }
 header h1 {
   text-align: center;
+  color: hsl(234, 12%, 34%);
 }
 
 header p {
@@ -52,17 +49,17 @@ main div section:first-child {
   margin-bottom: 15px;
 }
 main > section:first-child {
-  border-top: 3px solid green;
+  border-top: 3px solid hsl(180, 62%, 55%);
 }
 
 main > section:last-child {
-  border-top: 3px solid blue;
+  border-top: 3px solid hsl(212, 86%, 64%);
 }
 main div > section:first-child {
-  border-top: 3px solid red;
+  border-top: 3px solid hsl(0, 78%, 62%);
 }
 main div > section:last-child {
-  border-top: 3px solid orange;
+  border-top: 3px solid hsl(34, 97%, 64%);
 }
 section {
   height: max-content;
@@ -83,6 +80,20 @@ section img {
 
 .card p {
   color: rgba(0, 0, 0, 0.5);
+  font-size: 0.9rem;
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  color: hsl(234, 12%, 34%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 @media screen and (max-width: 800px) {
   main {
